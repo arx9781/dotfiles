@@ -1,0 +1,1 @@
+my arch linux config & dotfiles. you can copy and paste things from here to your config but keep in my these dots are made with my taste, you might have to overhaul them very heavily to match yout setup.
