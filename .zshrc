@@ -42,8 +42,9 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # aliases
-alias ls='exa --color=never --header --long --icons'
-alias tree='exa --tree --long --header --level=2 --icons colors=never'
+alias ls='exa --header --long --icons'
+alias tree='exa --tree --long --header --level=2 --icons'
+# --color=never for exa for no colors
 
 # shell integrations
 eval "$(fzf --zsh)"
